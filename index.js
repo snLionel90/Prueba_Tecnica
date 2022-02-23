@@ -7,7 +7,7 @@ const app = express()
 dotenv.config()
 PORT = process.env.PORT
 
-//middlewares
+//middle´s
 app.use(express.json())
 
 //routes
